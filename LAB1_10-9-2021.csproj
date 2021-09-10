@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>LAB1_10_9_2021</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\materialize.css" />
+    <Content Remove="wwwroot\css\materialize.min.css" />
+    <Content Remove="wwwroot\css\style.css" />
+    <Content Remove="wwwroot\js\init.js" />
+    <Content Remove="wwwroot\js\materialize.js" />
+    <Content Remove="wwwroot\js\materialize.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\materialize.css" />
+    <None Include="wwwroot\css\materialize.min.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\js\init.js" />
+    <None Include="wwwroot\js\materialize.js" />
+    <None Include="wwwroot\js\materialize.min.js" />
+  </ItemGroup>
+
+</Project>
